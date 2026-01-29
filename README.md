@@ -38,39 +38,6 @@ O site foi desenvolvido com foco em **design humanizado**, **boa experiência do
 
 ---
 
-## 📁 Estrutura de Pastas
-
-
-seusitesuacara/
-│
-├── index.html             # Página inicial
-├── portfolio.html         # Página de portfólio
-│
-├── js/
-│   ├── header.js          # Cabeçalho dinâmico
-│   ├── footer.js          # Rodapé dinâmico
-│
-├── src/
-│   ├── assets/
-│   │   ├── cardapio-doceraiz.png
-│   │   ├── card-boloscaseiros.png
-│   │   ├── card-da-vo.png
-│   │   ├── cartao-digital.png
-│   │   ├── favicon.png
-│   │   ├── img-academia.png
-│   │   ├── img-cardapio.png
-│   │   ├── img-colegio-horizonte.png
-│   │   ├── img-seusitesuacara.png
-│   │   ├── img-website.png
-│   │   └── logo-site.jpg
-│   │
-│   ├── styles/
-│   │   └── index.css      # Estilos personalizados
-│
-└── 
----
----
-
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5**  
@@ -125,7 +92,6 @@ Ajudar pequenas empresas e autônomos a terem uma presença digital **bonita, fu
 Desenvolvedora Front-End | Criação de Sites | SEO  
 📧 contato@seusitesuacara.com  
 📱 WhatsApp: (11) 97112-8269  
-
 
 ---
 
