@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    
+    <link rel="stylesheet" href="src/styles/index.css">
+    
+    <title>Seu Site, Sua Cara</title>
+    <!-- FAVICON -->
+<link rel="icon" href="src/assets/logo-site.jpg" type="image/png" sizes="32x32">
+
+<!-- META DESCRIPTION -->
+<meta name="description" content="Criação de sites profissionais, landing pages e soluções digitais personalizadas. Desenvolvemos presença digital estratégica para marcas, profissionais e negócios. Solicite seu projeto.">
+
+<!-- SCHEMA MARKUP (SEO PROFISSIONAL) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Seu Site, Sua Cara",
+  "url": "https://www.seusitesuacara.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.seusitesuacara.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8948111503282096" crossorigin="anonymous"></script>
+
+<!-- AOS (animações ao rolar a página) -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6TX72Y2BHT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6TX72Y2BHT');
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Botão flutuante do WhatsApp -->
+<a id="btn-whatsapp-flutuante" 
+   href="https://wa.me/5511971128269?text=Ol%C3%A1!%20Quero%20Solicitar%20um%20Or%C3%A7amento."
+   target="_blank" 
+   class="whatsapp-flutuante"
+   onclick="gtag('event', 'lead_whatsapp', { 'lead_type': 'flutuante' });">
+  
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+       alt="whatsapp" 
+       style="width: 24px; margin-right: 8px;">
+  
+  Solicite seu orçamento!
+</a>
+
+    <!--Cabeçalho-->
+<div id="header"></div>
+
+<!-- ================= HERO ================= -->
+<section class="py-5 hero-bg">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- TEXTO -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="hero-title">Sites profissionais que vendem por você</h1>
+        <p class="hero-subtitle mt-3">
+          Planos mensais com manutenção incluída, design exclusivo e foco total em conversão.
+        </p>
+
+        <div class="mt-4">
+          <a href="#pacotes" class="btn btn-dark btn-lg me-2">Quero meu site</a>
+          <a href="https://wa.me/5511971128269" target="_blank" class="btn btn-warning btn-lg">WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- IMAGEM -->
+      <div class="col-md-6 mt-4 mt-md-0 text-center">
+        <img src="src/assets/img-website.png" 
+             class="img-fluid hero-img" 
+             alt="Mockup do site">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= PROBLEMAS ================= -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Seu negócio pode vender mais</h2>
+
+    <div class="row mt-4 g-4">
+      <div class="col-md-3"><div class="card p-4 shadow-sm">Instagram sozinho não converte</div></div>
+      <div class="col-md-3"><div class="card p-4 shadow-sm">Clientes pedem informações repetidas</div></div>
+      <div class="col-md-3"><div class="card p-4 shadow-sm">Sem site, falta profissionalismo</div></div>
+      <div class="col-md-3"><div class="card p-4 shadow-sm">Seu negócio não aparece no Google</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOBRE ================= -->
+<section class="py-5 rosa-bg">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- IMAGEM -->
+      <div class="col-md-5 text-center mb-4 mb-md-0">
+        <img src="src/assets/logo-site.jpg" 
+             class="img-fluid sobre-img" 
+             alt="Sobre - Seu site, sua cara">
+      </div>
+
+      <!-- TEXTO -->
+      <div class="col-md-7 text-center text-md-start">
+        <h2>Sobre mim</h2>
+        <p class="mt-3">
+          Sou desenvolvedora Front-End e ajudo pequenos negócios a conquistarem uma presença digital elegante, clara e profissional.  
+          Crio sites humanizados que falam diretamente com o seu público e facilitam a sua venda — mesmo quando você não tem tempo para postar.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= PACOTES ================= -->
+<section id="pacotes" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Pacotes de Sites</h2>
+
+    <div class="row g-4">
+
+      <!-- PACOTE P -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">Pacote P</h3>
+            <p class="price fs-3 fw-bold">R$ 69/mês</p>
+
+            <ul class="list-unstyled text-start">
+              <li><i class="bi bi-check2-circle text-success"></i> Landing Page simples (1 página)</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Layout moderno, rápido e responsivo</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Botão WhatsApp</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Hospedagem inclusa</li>
+              <li><i class="bi bi-check2-circle text-success"></i> 1 atualização mensal</li>
+              <li><i class="bi bi-x-circle text-danger"></i> Manutenção básica</li>
+            </ul>
+<br><br>
+            <a href="https://wa.me/5511971128269?text=Olá%2C%20me%20interessei%20no%20Pacote%20P%20de%20Criação%20de%20Site.%20Pode%20me%20passar%20mais%20informações%3F" target="_blank" class="btn btn-dark w-100 mt-3">Quero o Pacote P</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PACOTE M -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">Pacote M</h3>
+            <p class="price fs-3 fw-bold">R$ 129/mês</p>
+
+            <ul class="list-unstyled text-start">
+              <li><i class="bi bi-check2-circle text-success"></i> Landing Page completa</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Até 3 páginas</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Vitrine simples ou portfólio</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Formulário de contato</li>
+              <li><i class="bi bi-check2-circle text-success"></i> SEO inicial</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Hospedagem inclusa</li>
+              <li><i class="bi bi-check2-circle text-success"></i> 2 atualizações mensais</li>
+              <li><i class="bi bi-x-circle text-danger"></i> Manutenção padrão</li>
+            </ul>
+
+            <a href="https://wa.me/5511971128269?text=Olá%2C%20me%20interessei%20no%20Pacote%20M%20de%20Criação%20de%20Site.%20Pode%20me%20passar%20mais%20informações%3F" target="_blank" class="btn btn-dark w-100 mt-3">Quero o Pacote M</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PACOTE G -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-lg border-warning">
+          <div class="card-body">
+            <h3 class="card-title fw-bold text-warning">Pacote G</h3>
+            <p class="price fs-3 fw-bold text-warning">R$ 199/mês</p>
+
+            <ul class="list-unstyled text-start">
+              <li><i class="bi bi-check2-circle text-success"></i> Landing Page premium</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Até 5 páginas</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Blog ou vitrine </li>
+              <li><i class="bi bi-check2-circle text-success"></i> Formulário de contato</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Hospedagem inclusa</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Manutenção completa</li>
+              <li><i class="bi bi-check2-circle text-success"></i> SEO avançado</li>
+              <li><i class="bi bi-check2-circle text-success"></i> 4 atualizações mensais</li>
+              <li><i class="bi bi-check2-circle text-success"></i> Cardápio simples incluso</li>
+            </ul>
+
+            <a href="https://wa.me/5511971128269?text=Olá%2C%20me%20interessei%20no%20Pacote%20G%20de%20Criação%20de%20Site.%20Pode%20me%20passar%20mais%20informações%3F" target="_blank" class="btn btn-warning text-dark fw-bold w-100 mt-3">
+              Quero o Pacote G
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARDÁPIO DIGITAL ================= -->
+<section id="cardapio" class="py-5">
+  <div class="container text-center">
+    <h2>Cardápio Digital</h2>
+    <p class="mt-3">A solução ideal para restaurantes, cafés, docerias e lanchonetes.</p>
+
+    <div class="row mt-4 g-4">
+
+      <!-- Simples -->
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm">
+          <h3>Cardápio Simples</h3>
+          <p class="price fs-4 fw-bold mt-2">R$ 19/mês</p>
+
+          <ul class="list-unstyled text-start">
+            <li><i class="bi bi-check2-circle text-success"></i> Categorias organizadas</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Lista de itens + valores</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Sem fotos</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Sem botões de pedido</li>
+            <li><i class="bi bi-check2-circle text-success"></i> QR Code</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Responsivo</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Hospedagem inclusa</li>
+            <li><i class="bi bi-check2-circle text-success"></i> 1 atualização mensal</li>
+          </ul>
+
+          <a href="https://wa.me/5511971128269?text=Olá%2C%20me%20interessei%20no%20Cardápio%20Simples.%20Pode%20me%20passar%20mais%20informações%3F" target="_blank" class="btn btn-dark w-100">Quero o Cardápio Simples</a>
+        </div>
+      </div>
+
+      <!-- Completo -->
+      <div class="col-md-6">
+        <div class="card p-4 shadow-sm">
+          <h3>Cardápio Completo</h3>
+          <p class="price fs-4 fw-bold mt-2">R$ 49/mês</p>
+
+          <ul class="list-unstyled text-start">
+            <li><i class="bi bi-check2-circle text-success"></i> Fotos dos produtos</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Botão “Pedir pelo WhatsApp”</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Destaques / Promoções</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Categorias organizadas</li>
+            <li><i class="bi bi-check2-circle text-success"></i> QR Code</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Responsivo</li>
+            <li><i class="bi bi-check2-circle text-success"></i> Hospedagem inclusa</li>
+            <li><i class="bi bi-check2-circle text-success"></i> 4 atualização mensal</li>
+          </ul>
+
+          <a href="https://wa.me/5511971128269?text=Olá%2C%20me%20interessei%20no%20Cardápio%20Completo.%20Pode%20me%20passar%20mais%20informações%3F" target="_blank" class="btn btn-dark w-100">Quero o Cardápio Completo</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMO FUNCIONA ================= -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2>Como funciona</h2>
+
+    <div class="row mt-4 g-4">
+      <div class="col-md-4"><div class="card p-4">1. Escolha seu plano</div></div>
+      <div class="col-md-4"><div class="card p-4">2. Envie o briefing</div></div>
+      <div class="col-md-4"><div class="card p-4">3. Eu crio seu site</div></div>
+      <div class="col-md-4"><div class="card p-4">4. Seu site vai ao ar</div></div>
+      <div class="col-md-4"><div class="card p-4">5. Atualizações mensais</div></div>
+      <div class="col-md-4"><div class="card p-4">6. Suporte direto comigo</div></div>
+    </div>
+  </div>
+</section>
+<!-- ================= DIFERENCIAL ================= -->
+<section class="py-5 rosa-bg">
+  <div class="container text-center">
+    <h2>Por que escolher meu trabalho?</h2>
+
+    <div class="row mt-4 g-4">
+      <div class="col-md-3"><div class="card p-4">Design humanizado e elegante</div></div>
+      <div class="col-md-3"><div class="card p-4">Sites focados em conversão</div></div>
+      <div class="col-md-3"><div class="card p-4">Manutenção inclusa</div></div>
+      <div class="col-md-3"><div class="card p-4">Suporte direto comigo</div></div>
+    </div>
+  </div>
+</section>
+<!-- ================= Depoimento ================= -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2>Depoimentos</h2>
+
+    <div class="row mt-4 g-4">
+      <div class="col-md-6"><div class="card p-4">“Serviço impecável. Meu site ficou exatamente como eu queria.” - Rosana Freitas</div></div>
+      <div class="col-md-6"><div class="card p-4">“Atendimento rápido e muito atencioso. Recomendo demais!” - João Paulo</div></div>
+    </div>
+  </div>
+</section>
+<!-- ================= PORTFÓLIO ================= -->
+<section id="portfolio" class="py-5 rosa-bg">
+  <div class="container text-center">
+
+    <h2>Portfólio</h2>
+    <p class="mt-2">Veja alguns dos meus últimos trabalhos.</p>
+
+    <div class="row mt-4 g-4">
+
+  <div class="col-md-4">
+    <div class="card p-3">
+      <img src="src/assets/img-academia.png" class="img-fluid rounded" alt="Projeto 01">
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card p-3">
+      <img src="src/assets/img-colegio-horizonte.png" class="img-fluid rounded" alt="Projeto 02">
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card p-3">
+      <img src="src/assets/card-da-vo.png" class="img-fluid rounded" alt="Projeto 03">
+    </div>
+  </div>
+
+</div>
+
+<a href="portfolio.html" class="btn btn-dark mt-4">Ver portfólio completo</a>
+ 
+    
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center">FAQ — Perguntas Frequentes</h2>
+
+    <div class="accordion mt-4" id="faq">
+
+      <!-- PERGUNTA 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            Em quanto tempo meu site fica pronto?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Entre 7 e 15 dias, dependendo do plano e do envio do seu conteúdo.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+            O que está incluído na mensalidade?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Hospedagem, manutenção mensal, suporte e pequenas atualizações de conteúdo.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+            Preciso pagar domínio?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Sim, o domínio é pago separadamente (aprox. R$ 40–60/ano).
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+            Como funciona a manutenção mensal?
+          </button>
+        </h2>
+        <div id="faq4" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Você tem direito a ajustes, revisões simples e atualizações todo mês.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq5">
+            O site funciona bem no celular?
+          </button>
+        </h2>
+        <div id="faq5" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Sim! Todos os sites são responsivos e funcionam em qualquer dispositivo.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 6 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq6">
+            Como funciona o pagamento?
+          </button>
+        </h2>
+        <div id="faq6" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            A assinatura é paga mensalmente via Pix recorrente ou cartão.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 7 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq7">
+            Posso cancelar a assinatura?
+          </button>
+        </h2>
+        <div id="faq7" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Sim, após o período mínimo de fidelidade (6 meses).
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 8 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq8">
+            Se eu cancelar, fico com o site?
+          </button>
+        </h2>
+        <div id="faq8" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Como o site faz parte da assinatura, ele permanece ativo enquanto o plano estiver ativo.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 9 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq9">
+            O que preciso enviar para começar?
+          </button>
+        </h2>
+        <div id="faq9" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Logo, textos, fotos e informações básicas. E se não tiver tudo pronto, eu te ajudo!
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 10 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq10">
+            Você cria os textos do site?
+          </button>
+        </h2>
+        <div id="faq10" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Sim! Eu ajusto os textos para comunicar com clareza e foco em conversão.
+          </div>
+        </div>
+      </div>
+
+      <!-- PERGUNTA 11 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq11">
+            Posso pedir alterações depois do site pronto?
+          </button>
+        </h2>
+        <div id="faq11" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Claro! A manutenção mensal inclui revisões simples sem custo extra.
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ================= CTA FINAL ================= -->
+<section id="contato" class="py-5 text-center">
+  <div class="container">
+    <h2>Pronta para ter seu site profissional?</h2>
+    <p class="mt-2">Fale comigo e vamos começar ainda hoje.</p>
+    <a href="https://wa.me/5511971128269" target="_blank" class="btn btn-dark btn-lg mt-3">Falar no WhatsApp</a>
+  </div>
+</section>
+
+    <div id="footer"></div>
+
+
+</body>
+<script src="js/footer.js"></script>
+<script src="js/header.js"></script>
+
+</html>
