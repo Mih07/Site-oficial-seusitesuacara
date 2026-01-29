@@ -38,16 +38,6 @@ O site foi desenvolvido com foco em **design humanizado**, **boa experiência do
 
 ---
 
-## 🚀 Tecnologias Utilizadas
-
-- **HTML5**  
-- **CSS3**  
-- **Bootstrap 5**  
-- **JavaScript (DOM)**  
-- **Ícones Bootstrap Icons**  
-- **Google Fonts**  
-- **Responsividade completa**
-
 ---
 
 ## 🧠 Funcionalidades Implementadas
