@@ -40,7 +40,7 @@ O site foi desenvolvido com foco em **design humanizado**, **boa experiência do
 
 ## 📁 Estrutura de Pastas
 
-```bash
+
 seusitesuacara/
 │
 ├── index.html             # Página inicial
@@ -67,9 +67,8 @@ seusitesuacara/
 │   ├── styles/
 │   │   └── index.css      # Estilos personalizados
 │
-└── ...
-
-
+└── 
+---
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -131,3 +130,5 @@ Desenvolvedora Front-End | Criação de Sites | SEO
 ---
 
 ## ⭐ Se este projeto inspirou você, deixe uma estrela no repositório!
+
+
